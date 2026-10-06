@@ -3,9 +3,8 @@ package service;
 /**
  * Bảo hiểm bắt buộc phần người lao động đóng:
  * BHXH 8% + BHYT 1.5% + BHTN 1% = 10.5% lương.
- * (Tỷ lệ dùng cho bài tập, có thể chỉnh trong hằng số.)
  *
- * Người phụ trách: NGƯỜI 2
+ * Người phụ trách: Đỗ Quang Trung - N24DCAT084
  */
 public class BaoHiem implements KhauTru {
 
