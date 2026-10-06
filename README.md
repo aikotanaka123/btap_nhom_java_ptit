@@ -11,12 +11,12 @@ Yêu cầu: **JDK 11 trở lên**. Không dùng thư viện ngoài.
 
 | Thành viên | Package / file phụ trách | Kiến thức OOP thể hiện |
 |---|---|---|
-| **Người 1** (trưởng nhóm) | `src/model/` — `NhanVien` (abstract), `NVFullTime`, `NVPartTime`, `ThucTapSinh`, `QuanLy`, `PhongBan`<br>+ tạo repo, `README.md`, `.gitignore`, vẽ sơ đồ lớp | Trừu tượng, kế thừa nhiều tầng, đa hình (`tinhLuong()`), đóng gói (setter có kiểm tra), `Comparable`, `equals/hashCode`, Template Method (`toCSV()`) |
-| **Người 2** | `src/exception/` — `NhanVienKhongTonTaiException`, `DuLieuKhongHopLeException`<br>`src/service/` — `KhauTru` (interface), `BaoHiem`, `ThueTNCN`, `ChamCong`, `BangLuong` | Interface, hiện thực interface, đa hình qua interface, composition, checked vs unchecked exception |
-| **Người 3** | `src/manager/` — `IQuanLy<T>`, `QuanLyNhanSu`, `FileHandler`, `DuLieuMau`<br>`src/ui/Menu.java`, `src/Main.java` | Generic interface, Collection (`ArrayList`, `LinkedHashMap`, `TreeMap`), `Comparator`/lambda, đọc ghi file, try-catch, `instanceof` + ép kiểu |
+| **Bùi Minh Khuê - N24DCAT042** (trưởng nhóm) | `src/model/` — `NhanVien` (abstract), `NVFullTime`, `NVPartTime`, `ThucTapSinh`, `QuanLy`, `PhongBan`<br>+ tạo repo, `README.md`, `.gitignore`, vẽ sơ đồ lớp | Trừu tượng, kế thừa nhiều tầng, đa hình (`tinhLuong()`), đóng gói (setter có kiểm tra), `Comparable`, `equals/hashCode`, Template Method (`toCSV()`) |
+| **Đỗ Quang Trung - N24DCAT084** | `src/exception/` — `NhanVienKhongTonTaiException`, `DuLieuKhongHopLeException`<br>`src/service/` — `KhauTru` (interface), `BaoHiem`, `ThueTNCN`, `ChamCong`, `BangLuong` | Interface, hiện thực interface, đa hình qua interface, composition, checked vs unchecked exception |
+| **Bùi Duy Khánh N24DCAT038** | `src/manager/` — `IQuanLy<T>`, `QuanLyNhanSu`, `FileHandler`, `DuLieuMau`<br>`src/ui/Menu.java`, `src/Main.java` | Generic interface, Collection (`ArrayList`, `LinkedHashMap`, `TreeMap`), `Comparator`/lambda, đọc ghi file, try-catch, `instanceof` + ép kiểu |
 
 **Thứ tự phụ thuộc:** `model` ← `service` ← `manager/ui`.
-Người 1 push trước, Người 2 push sau, Người 3 merge cuối.
+Bùi Minh Khuê push trước, Đỗ Quang Trung push sau, Bùi Duy Khánh merge cuối.
 
 ---
 
