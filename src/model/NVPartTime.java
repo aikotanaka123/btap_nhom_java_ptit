@@ -5,7 +5,7 @@ import java.time.LocalDate;
 /**
  * Nhân viên bán thời gian: lương = số giờ làm x đơn giá giờ. Không đóng bảo hiểm.
  *
- * Người phụ trách: NGƯỜI 1
+ * Người phụ trách: Bùi Minh Khuê - N24DCAT042
  */
 public class NVPartTime extends NhanVien {
 
