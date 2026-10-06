@@ -5,7 +5,7 @@ import java.time.LocalDate;
 /**
  * Nhân viên toàn thời gian: lương = lương cơ bản x hệ số + phụ cấp.
  *
- * Người phụ trách: NGƯỜI 1
+ * Người phụ trách: Bùi Minh Khuê - N24DCAT042
  */
 public class NVFullTime extends NhanVien {
 
