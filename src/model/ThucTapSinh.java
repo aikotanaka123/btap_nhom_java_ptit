@@ -5,7 +5,7 @@ import java.time.LocalDate;
 /**
  * Thực tập sinh: nhận trợ cấp cố định, không đóng bảo hiểm.
  *
- * Người phụ trách: NGƯỜI 1
+ * Người phụ trách: Bùi Minh Khuê - N24DCAT042
  */
 public class ThucTapSinh extends NhanVien {
 
