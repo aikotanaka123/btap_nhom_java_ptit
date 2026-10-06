@@ -6,7 +6,7 @@ import java.time.LocalDate;
  * Quản lý: là một nhân viên toàn thời gian (kế thừa NVFullTime) có thêm phụ cấp chức vụ.
  * Ví dụ kế thừa nhiều tầng: NhanVien -> NVFullTime -> QuanLy, và dùng super.tinhLuong().
  *
- * Người phụ trách: NGƯỜI 1
+ * Người phụ trách: Bùi Minh Khuê - N24DCAT042
  */
 public class QuanLy extends NVFullTime {
 
