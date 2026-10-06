@@ -1,0 +1,22 @@
+# File biên dịch
+out/
+bin/
+build/
+target/
+*.class
+
+# Dữ liệu sinh ra khi chạy chương trình
+data/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+nbproject/private/
+.settings/
+.project
+.classpath
+
+# Hệ điều hành
+.DS_Store
+Thumbs.db
