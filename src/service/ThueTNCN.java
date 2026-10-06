@@ -1,11 +1,10 @@
 package service;
 
 /**
- * Thuế thu nhập cá nhân tính theo biểu thuế LŨY TIẾN TỪNG PHẦN.
- * Số liệu (mức giảm trừ, các bậc) là số MINH HỌA cho bài tập,
- * có thể cập nhật theo quy định hiện hành bằng cách sửa các hằng số.
+ * Thuế thu nhập cá nhân tính theo biểu thuế Lũy tiền từng phần.
+ * Số liệu (mức giảm trừ, các bậc) là số minh họa cho bài tập,
  *
- * Người phụ trách: NGƯỜI 2
+ * Người phụ trách: Đỗ Quang Trung - N24DCAT084
  */
 public class ThueTNCN implements KhauTru {
 
