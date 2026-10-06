@@ -1,11 +1,11 @@
 package exception;
 
 /**
- * Ngoại lệ KHÔNG KIỂM TRA (unchecked - kế thừa RuntimeException):
+ * Ngoại lệ không kiểm tra (unchecked - kế thừa RuntimeException):
  * không bắt buộc try-catch. Dùng khi dữ liệu nghiệp vụ sai
  * (trùng mã nhân viên, số giờ tăng ca vượt quy định, ...).
  *
- * Người phụ trách: NGƯỜI 2
+ * Người phụ trách: Đỗ Quang Trung - N24DCAT084
  */
 public class DuLieuKhongHopLeException extends RuntimeException {
 
