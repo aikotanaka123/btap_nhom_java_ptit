@@ -6,10 +6,10 @@ import java.util.Objects;
 
 /**
  * Lớp trừu tượng NhanVien - lớp cha của mọi loại nhân viên.
- * Thể hiện: TRỪU TƯỢNG (abstract), ĐÓNG GÓI (private + getter/setter có kiểm tra),
- * và là gốc cho KẾ THỪA / ĐA HÌNH (tinhLuong() mỗi lớp con tính một kiểu).
+ * Thể hiện: trừu tượng (abstract), đóng gói (private + getter/setter có kiểm tra),
+ * và là gốc cho kế thừa (tinhLuong() mỗi lớp con tính một kiểu).
  *
- * Người phụ trách: NGƯỜI 1
+ * Người phụ trách: Bùi Minh Khuê - N24DCAT042
  */
 public abstract class NhanVien implements Comparable<NhanVien> {
 
