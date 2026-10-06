@@ -5,10 +5,10 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * Phòng ban: chứa danh sách nhân viên (quan hệ KẾT TẬP / aggregation 1 - n).
+ * Phòng ban: chứa danh sách nhân viên.
  * Xóa phòng ban thì nhân viên vẫn tồn tại trong công ty.
  *
- * Người phụ trách: NGƯỜI 1
+ * Người phụ trách: Bùi Minh Khuê - N24DCAT042
  */
 public class PhongBan {
 
