@@ -17,7 +17,7 @@ import model.NhanVien;
  *   thuế TNCN         = lũy tiến trên (tổng thu nhập - bảo hiểm)
  *   thực lĩnh         = tổng thu nhập - bảo hiểm - thuế
  *
- * Người phụ trách: NGƯỜI 2
+ * Người phụ trách: Đỗ Quang Trung - N24DCAT084
  */
 public class BangLuong {
 
