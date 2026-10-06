@@ -1,11 +1,11 @@
 package exception;
 
 /**
- * Ngoại lệ KIỂM TRA (checked exception - kế thừa Exception):
- * nơi gọi BẮT BUỘC phải try-catch hoặc khai báo throws.
+ * Ngoại lệ kiểm tra (checked exception - kế thừa Exception):
+ * nơi gọi bắt buộc phải try-catch hoặc khai báo throws.
  * Ném ra khi tìm nhân viên theo mã mà không có.
  *
- * Người phụ trách: NGƯỜI 2
+ * Người phụ trách: Đỗ Quang Trung - N24DCAT084
  */
 public class NhanVienKhongTonTaiException extends Exception {
 
