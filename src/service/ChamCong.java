@@ -5,7 +5,7 @@ import exception.DuLieuKhongHopLeException;
 /**
  * Bảng chấm công của 1 nhân viên trong 1 tháng.
  *
- * Người phụ trách: NGƯỜI 2
+ * Người phụ trách: Đỗ Quang Trung - N24DCAT084
  */
 public class ChamCong {
 
